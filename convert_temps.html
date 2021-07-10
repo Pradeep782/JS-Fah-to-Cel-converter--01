@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Convert from Fahrenheit to Centigrade</title>
+    <script>
+       "use strict";
+
+    //    getting Fahrenheit details from user
+     const Fahrentemp = parseInt(prompt("Enter Fahrenheit temperature"));
+
+    //  converting temparature from Fahrenheit to Centigrade
+    const Centigradetemp = parseInt((Fahrentemp-32)*(5/9));
+
+    // displaying the converted Centigrade temparature
+         alert(`Fahrenheit temperature is ${Fahrentemp}
+               
+Celsius temperature is ${Centigradetemp}`);
+    </script>
+</head>
+<body>
+    <main>
+        <h1 style="color:blue;">Thanks for using the temperature converter</h1>
+    </main>
+</body>
+</html>
